@@ -8,7 +8,7 @@
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.0.1
+ * Plugin Version: 1.0.2
  * 
  */
 
@@ -61,12 +61,12 @@ function FooterInjectionForMyBB_activate() {
   // create plugin settings group
   // ***********************************************
   $fimybb_group = array(
-    "gid" => "NULL", 
+    "gid" => "0", 
     "name" => $lang->FooterInjectionForMyBB_name_0,
     "title" => $lang->FooterInjectionForMyBB_title_0,
     "description" => $lang->FooterInjectionForMyBB_description_0, 
     "disporder" => "1", 
-    "isdefault" => "no"
+    "isdefault" => "0"
   );
   $db->insert_query("settinggroups", $fimybb_group);
   $gid = $db->insert_id();
@@ -76,7 +76,7 @@ function FooterInjectionForMyBB_activate() {
   // ***********************************************
 
   $fimybb_setting = array(
-    "sid" => "NULL", 
+    "sid" => "0", 
     "name" => $lang->FooterInjectionForMyBB_name_1,
     "title" => $lang->FooterInjectionForMyBB_title_1,
     "description" => $lang->FooterInjectionForMyBB_description_1, 
@@ -90,7 +90,7 @@ function FooterInjectionForMyBB_activate() {
 
   // code to be injected
   $fimybb_setting = array(
-    "sid" => "NULL", 
+    "sid" => "0", 
     "name" => $lang->FooterInjectionForMyBB_name_2,
     "title" => $lang->FooterInjectionForMyBB_title_2,
     "description" => $lang->FooterInjectionForMyBB_description_2,  

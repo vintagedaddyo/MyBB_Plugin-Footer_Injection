@@ -14,8 +14,8 @@
 
 // plugin_info
 
-$l['FooterInjectionForMyBB_Name'] = 'Footer Injection for MyBB';
-$l['FooterInjectionForMyBB_Desc'] = 'Add code (HTML, CSS, or JS -- no PHP or MyBB template codes) to page footer';
+$l['FooterInjectionForMyBB_Name'] = 'Footer Injection per MyBB';
+$l['FooterInjectionForMyBB_Desc'] = 'Aggiungi codice (HTML, CSS o JS - nessun codice modello PHP o MyBB) al piè di pagina';
 $l['FooterInjectionForMyBB_Web'] = 'http://www.jimmyscode.com/php/footer-injection-mybb-plugin/';
 $l['FooterInjectionForMyBB_Auth'] = 'Jimmy Pe&ntilde;a & updated by Vintagedaddyo';
 $l['FooterInjectionForMyBB_AuthSite'] = 'http://community.mybb.com/user-6029.html';
@@ -26,19 +26,19 @@ $l['FooterInjectionForMyBB_Compat'] = '18*';
 //  create plugin settings group
 
 $l['FooterInjectionForMyBB_name_0'] = 'fimybb_group';
-$l['FooterInjectionForMyBB_title_0'] = 'Footer Injection for MyBB';
-$l['FooterInjectionForMyBB_description_0'] = 'Settings for Footer Injection for MyBB plugin';
+$l['FooterInjectionForMyBB_title_0'] = 'Footer Injection per MyBB';
+$l['FooterInjectionForMyBB_description_0'] = 'Impostazioni per Footer Injection per il plugin MyBB';
 
 //  settings 1
 
 $l['FooterInjectionForMyBB_name_1'] = 'fimybb_plugin_enabled';
-$l['FooterInjectionForMyBB_title_1'] = 'Enable Footer Injection for MyBB plugin?';
-$l['FooterInjectionForMyBB_description_1'] = 'Click Yes to enable the plugin, No to disable.';
+$l['FooterInjectionForMyBB_title_1'] = 'Abilitare Footer Injection per il plugin MyBB?';
+$l['FooterInjectionForMyBB_description_1'] = 'Fare clic su Sì per abilitare il plugin, No per disabilitare.';
 
 //  settings 2
 
 $l['FooterInjectionForMyBB_name_2'] = 'fimybb_inject';
-$l['FooterInjectionForMyBB_title_2'] = 'Code to be injected';
-$l['FooterInjectionForMyBB_description_2'] = 'Enter code here (no PHP or MyBB template codes). <strong>If you leave this blank, the plugin will not do anything even if you click Yes above.</strong>';
+$l['FooterInjectionForMyBB_title_2'] = 'Codice da iniettare';
+$l['FooterInjectionForMyBB_description_2'] = 'Inserisci qui il codice (nessun codice modello PHP o MyBB). <strong> Se lasci questo campo vuoto, il plug-in non eseguirà nulla anche se fai clic su Sì sopra. </strong>';
 
 ?>
